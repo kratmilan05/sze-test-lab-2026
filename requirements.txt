@@ -1,3 +1,5 @@
 Flask
 pytest
 pytest-bdd
+selenium
+webdriver-manager

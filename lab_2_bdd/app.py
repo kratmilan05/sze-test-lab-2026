@@ -24,3 +24,11 @@ def get_todos():
         }
         todos.append(new_todo)
         return jsonify(new_todo), 201
+
+
+@app.route('/todos/<int:todo_id>', methods=['GET'])
+def get_single_todo(todo_id):
+    todo = next((item for item in todos if item['id'] == todo_id), None)
+    if todo is None:
+        return jsonify({"error": f"Todo with id {todo_id} not found"}), 404
+    return jsonify(todo), 200
