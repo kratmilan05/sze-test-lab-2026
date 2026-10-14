@@ -1,3 +1,5 @@
+[![CI](https://github.com/<felhasznalo>/sze-test-lab-2026/actions/workflows/ci.yml/badge.svg)](https://github.com/<felhasznalo>/sze-test-lab-2026/actions/workflows/ci.yml)
+
 ## A projekt beállítás
 
 - Nyisd meg a Visual Studio Code alkalmazást
